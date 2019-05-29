@@ -75,3 +75,24 @@ footer{
   line-height: 400px;
   
 }
+
+
+#users:hover{
+	border-color: #0A0A2A;
+	color: #0A0A2A;
+	
+}
+
+#drivers:hover{
+	background-color: #0A0A2A;
+	color:#FFF;
+}
+
+#enter:hover{
+	border-color: #0A0A2A;
+	color: #0A0A2A;
+}
+
+a#changeHoverText:hover{
+	color: #0040FF !important;
+}
