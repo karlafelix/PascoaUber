@@ -1,0 +1,77 @@
+body{
+  font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+}
+
+
+.fixedPage{
+	font-family: "Helvetica", "Sans-Serif";
+	background: #D8D8D8;
+	background-image: url("imagens/fundo.jpg");
+	background-repeat: no-repeat center center;
+	-webkit-background-size: 100% 100%;
+  	-moz-background-size: 100% 100%;
+ 	-o-background-size: 100% 100%;
+ 	background-size: 100% 100%;
+
+	content = " ";
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+
+.cape{
+	background-color: rgba(10,23,55,0.3);
+	background-repeat: no-repeat center center;
+	-webkit-background-size: 100% 100%;
+  	-moz-background-size: 100% 100%;
+ 	-o-background-size: 100% 100%;
+ 	background-size: 100% 100%;
+	content = " ";
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+
+
+header,main,footer{
+  height: 33%;
+}
+
+
+.navigation{
+
+  line-height: 40px;
+  font-size: 25px;
+  height: 75px;
+  background-color: rgba(10,23,55,0.9);
+}
+
+nav{
+  margin-left: 50px;
+  margin-right: 50px;
+}
+a:hover{
+  text-decoration: none;
+}
+
+li{
+  margin-left: 20px;
+}
+
+.name{
+  /* margin-top: 50px; */
+  font-size: 70px;
+  font-weight: bold;
+  color: rgba(255, 255, 255, 0.5);
+  text-align: center;
+}
+
+
+footer{
+  line-height: 400px;
+  
+}
