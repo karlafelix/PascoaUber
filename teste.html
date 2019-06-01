@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>Untitled Document</title>
+        <script language="javascript"> 
+        function EscondeElemento(id){
+            var elemento = document.getElementById(id); 
+            if(elemento.style.display == 'none') {
+                elemento.style.display = 'block'; 
+            } else{
+                elemento.style.display = 'none'; 
+            }
+        }    
+        </script>
+    </head> 
+    <body> 
+        <center>
+            <input type="button" id="botao" onclick="EscondeElemento('div')" value="Esconde Div" /></br></br>
+            <center>
+                <div style="display: none;" id="div">``parece q escondeu`</div> 
+            </center>
+        </center>
+    </body>
+</html>

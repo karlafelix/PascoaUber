@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
-    <title>Páscoa-Uber</title>
+    <title>Páscoa-Uber | Home</title>
   </head>
 
   <body>
@@ -15,23 +15,24 @@
         <header>
           <div class="navigation">
             <nav class="navbar navbar-expand-sm navbar-light">
-              <a href="#" class="text-light">ℙáscoa-Ⓤber</a>
-              <ul class="navbar-nav ml-auto ">
-                <li class="nav-item"><a href="#" class="nav-link text-light">Home</a></li>
-                <li class="nav-item"><a href="#" class="nav-link text-light">Sobre</a></li>
-                <li class="nav-item"><a href="#" class="nav-link text-light">Serviçs</a></li>
-                <li class="nav-item"><a href="#" class="nav-link text-light">Vantagens</a></li>
+              <a class="text-light" href="index.html">ℙáscoa-Ⓤber</a>
+              <ul class="navbar-nav ml-auto mr-4 ">
+                <li class="nav-item"><a id="changeHoverText" class="nav-link text-light" href="index.html">Home</a></li>
+                <li class="nav-item"><a id="changeHoverText" class="nav-link text-light" href="#">Sobre</a></li>
+                <li class="nav-item"><a id="changeHoverText" class="nav-link text-light" href="#">Serviços</a></li>
+                <li class="nav-item"><a id="changeHoverText" class="nav-link text-light" href="#">Vantagens</a></li>
               </ul>
+              <button id="enter" onclick="window.location.href='login.html';" class="btn btn-outline-light btn-md " type="button">Entrar</button>
             </nav>
           </div>
         </header>
 
         <main>
-          <div class="name" style="">
+          <div class="name">
             ℙáscoa-Ⓤber
             <div class="acess">
-              <button onclick="window.location.href='index.html';" class="btn btn-outline-light btn-lg" type="button">Entrar</button>
-              <button onclick="window.location.href='index.html';" class="btn btn-outline-light btn-lg" type="button">Cadastre-se</button>
+              <button id="users" onclick="window.location.href='user.html';" class="btn btn-outline-light btn-lg" type="button">Cadastre-se como usuário</button><br>
+              <button id="drivers" onclick="window.location.href='driver.html';" class="btn btn-outline-light btn-lg" type="button">Cadastre-se como motorista</button>
             </div>
           </div>
         </main>

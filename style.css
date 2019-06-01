@@ -73,5 +73,263 @@ li{
 
 footer{
   line-height: 400px;
+
+}
+
+#users, #drivers{
+  border-radius: 30px;
+}
+
+#users:hover{
+	border-color: #0A0A2A;
+	color: #0A0A2A;
+
+}
+
+#drivers:hover{
+	background-color: #0A0A2A;
+	color:#FFF;
+}
+
+#enter:hover{
+	border-color: #0A0A2A;
+	color: #0A0A2A;
+}
+
+a#changeHoverText:hover{
+	color: #00FFFF !important;
+}
+
+
+.fixedPageLogin{
+	font-family: "Helvetica", "Sans-Serif";
+	background-color: #D8D8D8;
+  /* background-color:  */
+	background-image: url("imagens/fundo10.jpg");
+  background-position: absolute;
+	background-repeat: no-repeat center center;
+	-webkit-background-size: 100% 100%;
+  	-moz-background-size: 100% 100%;
+ 	-o-background-size: 100% 100%;
+ 	background-size: 100% 100%;
+
+	content = " ";
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+
+.boxForm{
+	width: 25%;
+	height: 60%;
+	margin: auto;
+  padding: 30px 15px;
+	margin-top: 20px;
+	margin-bottom: 10%;
+	border: 1px solid #FFF;
+  background-color: rgb(0,0,0,0.8);
+  border-radius: 15px;
+
+}
+
+#blockUser{
+  background-color: rgba(255, 0, 0, 0.0);
+  color: #FFF;
+}
+
+
+#passwordUser{
+  background-color: rgba(255, 0, 0, 0.0);
+  color: #FFF;
+}
+
+#changeForm{
+  font-size: 20px;
+}
+
+
+#changeButton:hover{
+  background-color: #FFF;
+	color: #0A0A2A !important;
+  border-color: #0A0A2A;
+}
+
+a#forgetPass:hover{
+  text-decoration: underline;
+  color: #FFF !important;
+}
+
+
+.fixedPageUser, .fixedPageDriver{
+	font-family: "Helvetica", "Sans-Serif";
+	background-color: #D8D8D8;
+  /* background-color:  */
+	background-image: url("imagens/fundo11.jpg");
+  background-position: absolute;
+	background-repeat: no-repeat center center;
+	-webkit-background-size: 100% 100%;
+  	-moz-background-size: 100% 100%;
+ 	-o-background-size: 100% 100%;
+ 	background-size: 100% 100%;
+
+	content = " ";
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+
+.boxFormUser{
+	width: 30%;
+	height: 100%;
+	margin: auto;
+  /* margin-top: 30px: */
+  /* margin-bottom: 20px; */
+  padding: 40px 10px;
+	/* margin-top: 10%; */
+	/* margin-bottom: 10%; */
+	border: 1px solid #FFF;
+  background-color: rgb(0,0,0,0.5);
+  border-radius: 15px;
+}
+
+.boxFormDriver{
+  width: 60%;
+	height: 100%;
+	margin: auto;
+  padding: 10px 10px;
+	border: 1px solid #FFF;
+  background-color: rgb(0,0,0,0.5);
+  border-radius: 15px;
+
+}
+
+#changeInputUser input{
+  /* width:10px; */
+  height: 30px;
+}
+
+#changeInputUser form{
+  width: 100%;
+}
+
+#changeInputDriver input{
+  /* width:10px; */
+  height: 25px;
+}
+
+#changeInputDriver form{
+  width: 100%;
+}
+
+.changeBTN{
   
+  width: 60%;
+}
+
+.changeBTN-Driver{
+  width: 50%;
+}
+
+
+.changeBTN-Location{
+  width: 61%;
+}
+
+#styleMenuDrop a:hover{
+  background-color: gray;
+}
+/* button.changeWidth{
+  width: 9%;
+} */
+
+#nameLogin{
+  margin-top: 30px;
+}
+
+
+.leftSide, .rightSide{
+  
+  display: inline-flex;
+  width: 48%;
+  height: 55%;
+}
+
+#dropButton a:hover{
+  background-color: gray;
+  font-color:white;
+}
+
+
+#local1{
+  width:48%;
+  
+  display: inline-flex;
+
+}
+
+#local1 input{
+  height: 25px;
+  font-size-adjust: auto;
+}
+
+#local1 form{
+  width: 100%; 
+}
+
+/*#local3{
+  width:48%;
+  border: 1px solid red;
+  display: inline-flex;
+
+}
+
+#local3 input{
+  height: 25px;
+  font-size-adjust: auto;
+}
+
+#local3 form{
+  width: 100%; 
+}*/
+
+
+
+#local2{
+  width:48%;
+
+}
+
+#local2 input{
+  height: 25px;
+  font-size-adjust: auto;
+}
+
+#local2 form{
+  width: 100%; 
+}
+
+
+.fixedInsideSystem{
+  font-family: "Helvetica", "Sans-Serif";
+  background-color: #C1CDCD;
+  background-repeat: no-repeat center center;
+  -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+  -o-background-size: 100% 100%;
+  background-size: 100% 100%;
+
+  content = " ";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.changeBTN-Car{
+  width: 40%;
 }
