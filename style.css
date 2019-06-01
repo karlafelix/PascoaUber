@@ -264,6 +264,7 @@ a#forgetPass:hover{
 }
 
 
+<<<<<<< HEAD
 #local1{
   width:48%;
   
@@ -333,3 +334,24 @@ a#forgetPass:hover{
 .changeBTN-Car{
   width: 40%;
 }
+=======
+#users:hover{
+	border-color: #0A0A2A;
+	color: #0A0A2A;
+	
+}
+
+#drivers:hover{
+	background-color: #0A0A2A;
+	color:#FFF;
+}
+
+#enter:hover{
+	border-color: #0A0A2A;
+	color: #0A0A2A;
+}
+
+a#changeHoverText:hover{
+	color: #0040FF !important;
+}
+>>>>>>> 7bccaa456dcd091c26330a1d7a61a7bce4ba1de4
