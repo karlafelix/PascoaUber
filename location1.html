@@ -6,24 +6,31 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
     <title>Páscoa-Uber</title>
+
+    <script> 
+        function functionAlert() { 
+          alert("Cadastro Realizado com Sucesso!"); 
+        } 
+    </script>
+
   </head>
 
   <body>
     <div class="fixedPageDriver">
       <div class="boxFormDriver m-auto">
-        
-            
+
+
 
             <div style="text-align: center;" class="text-light"><h5>Cadastro de Motorista</h5></div>
-         
+
 
             <div style="text-align: center; width: 50%;  " class="text-light m-auto"><h6 >Endereço 1</h6></div>
-            
+
             <div  id="local2" class="m-auto">
             	<form  class="text-light form-block">
               		CEP: <input class="form-control mb-2" type="text">
 
-              		Rua: <input class="form-control mb-2" type="text">              		
+              		Rua: <input class="form-control mb-2" type="text">
 
               		Numero: <input class="form-control mb-2" type="text">
 
@@ -36,27 +43,27 @@
               	</form>
             </div>
 
-            
+
             <div class="changeBTN-Location m-auto">
-              <button onclick="window.location.href='index.html';" class=" btn btn-outline-light  btn-md ml-3 mt-3" type="button">Cancelar</button>
-              <div class="btn-group text-center">
+              <button onclick="window.location.href='driver.html';" class=" btn btn-outline-light  btn-md  mt-3" type="button">Cancelar</button>
+              <!-- <div class="btn-group text-center">
               <button class=" btn btn-outline-light dropdown-toggle btn-md ml-3 mt-3" data-toggle="dropdown" type="button">Adicionar Endereço</button>
               <div id="styleMenuDrop" class="dropdown-menu text-center">
                 <a class="dropdown-item" href="location1.html">1</a>
                 <a class="dropdown-item" href="location2.html">2</a>
-                
+
               </div>
-              </div>
-              <button onclick="window.location.href='pageDriver.html';" class="  btn btn-outline-light btn-md ml-3 mt-3" type="button">Finalizar Cadastro</button> 
+              </div> -->
+              <button onclick="window.location.href='pageDriver.html'; functionAlert() " class="  btn btn-outline-light btn-md mt-3 ml-5" type="button">Finalizar Cadastro</button>
             </div>
-            
-         
-            
-            
 
 
-           
-            
+
+
+
+
+
+
       </div>
     </div>
 

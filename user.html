@@ -6,6 +6,12 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
     <title>Páscoa-Uber</title>
+
+    <script> 
+        function functionAlert() { 
+          alert("Cadastro Realizado com Sucesso!"); 
+        } 
+    </script>
   </head>
 
   <body>
@@ -25,9 +31,11 @@
             <input class="form-control  mb-3" type="text" placeholder="DD/MM/AAAA">
             <label>Senha:</label>
             <input class="form-control  mb-3" type="password" placeholder="Digite sua senha">
-            <button onclick="window.location.href='index.html';" class=" btn btn-outline-light  btn-md mr-3" type="button">Cancelar</button>
-            <button id="changeBTN" onclick="window.location.href='pageUser.html';" class="  btn btn-outline-light btn-md ml-4" type="button">Finalizar Cadastro</button>
         </form>
+        <div class="changeBTN-User">
+        <button onclick="window.location.href='index.html';" class=" btn btn-outline-light  btn-md mr-1" type="button">Cancelar</button>
+        <button id="changeBTN" onclick="window.location.href='pageUser.html'; functionAlert()" class="  btn btn-outline-light btn-md ml-3" type="button">Finalizar Cadastro</button>
+        </div>
       </div>
     </div>
 

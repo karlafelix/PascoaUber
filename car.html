@@ -6,22 +6,30 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
     <title>Páscoa-Uber</title>
+      <script>
+        function functionAlert() {
+          alert("Veículo Cadastrado com Sucesso!");
+        }
+      </script>
+
   </head>
 
   <body>
     <div class="fixedPageDriver">
       <div class="boxFormDriver m-auto">
-        
-            
+
+
 
             <div style="text-align: center;" class="text-light"><h5>Cadastro do Veículo</h5></div>
-         
-            
+
+
             <div  id="local2" class="m-auto">
             	<form  class="text-light form-block">
+                  E-mail: <input class="form-control mb-2" type="emil">
+
               		Placa: <input class="form-control mb-2" type="text">
 
-              		Modelo: <input class="form-control mb-2" type="text">              		
+              		Modelo: <input class="form-control mb-2" type="text">
 
               		Marca: <input class="form-control mb-2" type="text">
 
@@ -30,23 +38,22 @@
               		CPF: <input class="form-control mb-2" type="text">
 
               		Tipo de Veículo: <input class="form-control mb-2" type="text">
-                  
+
               	</form>
             </div>
 
-            
+
             <div class="changeBTN-Car m-auto">
-              <button onclick="window.location.href='index.html';" class=" btn btn-outline-light  btn-md ml-3 mt-3" type="button">Cancelar</button>
-              <button onclick="window.location.href='pageDriver.html';" class="  btn btn-outline-light btn-md ml-5 mt-3" type="button">Adicionar Veículo</button> 
+              <button onclick="window.location.href='pageDriver.html';" class=" btn btn-outline-light  btn-md ml-3 mt-3" type="button">Cancelar</button>
+              <button  onclick="window.location.href='pageDriverWillAcept.html'; functionAlert()" class=" btn btn-outline-light btn-md ml-3 mt-3" type="button">Adicionar Veículo</button> 
             </div>
-            
-         
-            
-            
 
 
-           
-            
+
+
+
+
+
       </div>
     </div>
 
